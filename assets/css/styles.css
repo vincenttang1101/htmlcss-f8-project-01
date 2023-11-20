@@ -12,7 +12,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Poppins, sans-serif";
+  font-family: "Poppins", sans-serif;
 }
 
 /* Common */
@@ -51,7 +51,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 5rem;
+  padding-top: 3.8rem;
 }
 
 .navbar ul {
@@ -83,4 +83,41 @@ a {
 .navbar .action-btn {
   padding: 1.3rem 1.6rem;
   margin-left: 1.8rem;
+}
+
+.hero {
+  margin-top: 13rem;
+}
+
+.hero .info {
+  width: 51%;
+}
+
+.hero .sub-title {
+  color: #687690;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.018rem;
+}
+
+.hero .title {
+  margin-top: 0.8rem;
+  color: #000336;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
+.hero .desc {
+  margin-top: 3rem;
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78;
+}
+
+.hero-cta {
+  min-width: 170px;
+  margin-top: 4rem;
 }
