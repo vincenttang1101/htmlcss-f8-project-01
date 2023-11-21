@@ -22,7 +22,7 @@ a {
 
 .content {
   width: 111rem;
-  max-width: calc(100% - 48px);
+  max-width: calc(100% - 4.8rem);
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,8 +42,10 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
+
 /* Header */
 .header {
+  position: relative;
   background: #e6f0ff;
   height: 100vh;
 }
@@ -118,6 +120,12 @@ a {
 }
 
 .hero-cta {
-  min-width: 170px;
+  min-width: 17rem;
   margin-top: 4rem;
+}
+
+.hero-img {
+  position: absolute;
+  bottom: 0;
+  right: calc((100vw - 111rem) / 2 - 10rem);
 }
