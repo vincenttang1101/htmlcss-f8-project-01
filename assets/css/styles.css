@@ -239,3 +239,35 @@ a {
 .guide-cta .btn {
   min-width: 170px;
 }
+
+.featured {
+  margin-top: 230px;
+}
+
+.featured .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.featured .sub-title {
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.featured .desc {
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88;
+}
+
+.featured .link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #0689ff;
+  font-size: 18px;
+  font-weight: 600;
+}
