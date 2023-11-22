@@ -132,7 +132,6 @@ a {
 }
 
 /* ======== Clients ======== */
-
 .clients {
   margin-top: 122px;
 }
@@ -158,4 +157,42 @@ a {
   display: flex;
   gap: 74px;
   align-items: center;
+}
+
+/* ======== Guides ======== */
+.guides {
+  margin-top: 174px;
+}
+
+.guides .sub-title {
+  position: relative;
+  color: #000339;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.guides .sub-title::before {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  display: inline-block;
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+}
+
+.guides .desc {
+  width: 459px;
+  max-width: 100%;
+  margin: 20px auto 0;
+  color: #5a6473;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87;
 }
