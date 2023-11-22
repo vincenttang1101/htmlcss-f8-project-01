@@ -31,7 +31,7 @@ a {
 .btn {
   display: inline-block;
   min-width: 98px;
-  border-radius: 8px;
+  border-radius: 12px;
   text-align: center;
   background: var(--primary-color);
   font-size: 1.4rem;
@@ -86,6 +86,7 @@ a {
 .navbar .action-btn {
   padding: 13px 16px;
   margin-left: 18px;
+  border-radius: 8px;
 }
 
 .hero {
