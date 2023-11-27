@@ -413,6 +413,39 @@ a {
   height: 1px;
 }
 
+.stats-trend .avatar-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 16px;
+  margin-top: 26px;
+}
+
+.stats-trend .avatar-group {
+  display: flex;
+}
+
+.stats-trend .avatar-group .avatar,
+.avatar-custom {
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+}
+
+.stats-trend .avatar-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f3bb1;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 450;
+  letter-spacing: -0.145px;
+}
+
+.stats .avatar-group .avatar:not(:first-child) {
+  margin-left: -3px;
+}
+
 .stats-trend .icon {
   margin-left: auto;
 }
