@@ -53,16 +53,26 @@ a {
 }
 
 /* ======== Header ======== */
-.header {
-  position: relative;
+.fixed-header {
+  position: sticky;
+  top: -26px;
+  z-index: 1;
   background: #e6f0ff;
-  height: 100vh;
+  padding-top: 26px;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
+}
+
+.hero-wrap {
+  position: relative;
+  background: #e6f0ff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .navbar ul {
