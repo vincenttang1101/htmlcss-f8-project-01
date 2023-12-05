@@ -17,6 +17,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 /* ======== Common ======== */
 a {
   text-decoration: none;
@@ -65,6 +70,10 @@ a {
   display: flex;
   align-items: center;
   padding: 12px 0;
+}
+
+.menu-list .active {
+  color: #d55d5d;
 }
 
 .hero-wrap {
